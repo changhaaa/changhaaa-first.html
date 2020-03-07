@@ -1,17 +1,53 @@
 <!doctype html>
 <html>
-<head>
-  <title>WEB1 - New York Mets</title>
-  <meta charset="utf-8">
-  <meta name="google-site-verification" content="FdX1vDQ97E38SgVswLK2m00gOEx2K5hhNvCia-epIFs" />
-</head>
-<body>
-  <h1><a href="index.html">내가 좋아하는 팀, New York Mets</a></h1>
-  <ol>
-    <li><a href="1.html">Description</a></li>
-    <li><a href="2.html">Recent History</a></li>
-    <li><a href="3.html">Players</a></li>
-  </ol>
-  <img src="Mets.svg.png">
-</body>
+  <head>
+    <title>WEB1 - New York Mets</title>
+    <meta charset="utf-8">
+    <meta name="google-site-verification" content="FdX1vDQ97E38SgVswLK2m00gOEx2K5hhNvCia-epIFs"/>
+    <link href="https://fonts.googleapis.com/css?family=Actor&display=swap" rel="stylesheet">
+    <style>
+      h1 {
+        color:purple;
+        font-size:35px;
+        text-align: center;
+        font-family: Actor;
+      }
+      .middle,li {
+        color:coral;
+      }
+      .head {
+        text-decoration: none;
+      }
+      ul {
+        text-align: center;
+      }
+      #img {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><a href="index.html" class="head">내가 좋아하는 팀, New York Mets</a></h1>
+    <!--
+    <h1 id="headline"><a href="index.html"><font color="purple">내가 좋아하는 팀, New York Mets</font></a></h1>
+    -->
+    <!--
+    <img src="Mets.svg.png" style="margin-left:auto; margin-right:auto; display:block; width:20%;">
+    -->
+    <div id="img">
+      <img src="Mets.svg.png">
+    </div>
+    <ul style="list-style-type:none">
+      <li><h2><a href="1.html" class= "middle head">Description</a></h2></li>
+      <li><h2><a href="2.html" class="middle head">Recent History</a></h2></li>
+      <li><h2><a href="3.html" class="middle head">Players</a></h2></li>
+    </ul>
+    <!--
+    <ol>
+      <li><h2><a href="1.html"><font color="coral">Description</font></a></h2></li>
+      <li><h2><a href="2.html"><font color="coral">Recent History</font></a></h2></li>
+      <li><h2><a href="3.html"><font color="coral">Players</font></a></h2></li>
+    </ol>
+  -->
+  </body>
 </html>

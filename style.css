@@ -1,0 +1,45 @@
+body {
+  margin: 0
+}
+h1 {
+  color:purple;
+  text-align:center;
+  font-family: Actor;
+  border-bottom: 1px solid gray;
+  margin:0;
+  padding:25px;
+}
+#grid ol {
+  border-right:1px solid gray;
+  width:200px;
+  margin:0;
+  padding:20px;
+  padding-left: 28px;
+  padding-top: 0px;
+  padding-right: 0px;
+  color:coral;
+}
+.middle {
+  color:coral;
+}
+.head {
+  text-decoration: none;
+}
+#now {
+  color:#ff5908;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 228px 1fr;
+}
+#grid #main {
+  padding-left: 20px
+}
+@media(max-width:800px) {
+        #grid {
+          display: block;
+        }
+        #grid ol {
+          border-right:none
+        }
+}
